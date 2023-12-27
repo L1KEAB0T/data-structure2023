@@ -15,19 +15,19 @@ void read(int& n, int& begin_pos,int &m,int &k) {
 	}
 	cout << "请输入游戏开始的位置";
 	cin >> begin_pos;
-	while (begin_pos > n) {
+	while (begin_pos > n||begin_pos<0) {
 		cout << "输入错误，请重新输入游戏开始的位置";
 		cin >> begin_pos;
 	}
 	cout << "请输入死亡数字";
 	cin >> m;
-	while (m > n) {
+	while (m > n||m<0) {
 		cout << "输入错误，请重新输入游戏开始的位置";
 		cin >> m;
 	}
 	cout << "请输入剩余的生还者人数";
 	cin >> k;
-	while (k > n) {
+	while (k > n||k<0) {
 		cout << "输入错误，请重新输入游戏开始的位置";
 		cin >> k;
 	}

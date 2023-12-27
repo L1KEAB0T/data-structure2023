@@ -120,7 +120,7 @@ void list::del(list& List, TestSystem student[]) {
 void list::change(list& List, TestSystem student[]) {
 	TestSystem* npos;
 	int pnum;
-	cout << "请输入你要查找考生的考号";
+	cout << "请输入你要修改的考生的考号";
 	cin >> pnum;
 	npos = list::find(List, pnum);
 	if (npos != 0) {
