@@ -28,5 +28,3 @@ struct BST
 	void del(Type val);
 	BinNode<Type>* DeleteNode(Type val, BinNode<Type>*& pos);
 };
-
-//最好再加个删除功能 就更好了#pragma once
